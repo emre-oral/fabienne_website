@@ -537,10 +537,10 @@ summary::marker {
 /* 3) Restyle the summary text to your taste */
 details summary {
   /* change text color */
-  color: #033a5f;
+  color: #186ba2;
 
   /* change font styling */
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
 
   /* optional: remove default padding */
@@ -551,10 +551,15 @@ details summary {
 }
 
 /* 4) Add a custom icon if you like (optional) */
-details summary::before {
-  content: "►";            /* or any unicode character */
+
+
+/* details summary::before {
+  content: "►";            
   display: inline-block;
   margin-right: 0.5em;
-  transform: rotate(0deg); /* you can rotate 90deg on open with JS or CSS if desired */
-}
+  transform: rotate(0deg); 
+} */
 
+/* details > summary {
+  list-style: none;
+} */
