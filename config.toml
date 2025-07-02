@@ -18,6 +18,6 @@ name = "Emre Oral"
 [params]
 title = "Doctoral Researcher"
 institution = "GESIS"
-logo = "content/emre_workphoto.jpg"
+logo = "img/emre_workphoto.jpg"
 Twitter = "emreoral_"
 Email = "fabienne.kraemer@gesis.org"
