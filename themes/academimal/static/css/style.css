@@ -522,6 +522,8 @@ footer {
 details {
   margin-top: 0;
   margin-bottom: 1em;
+  font-weight: 300;
+  font-size: 12px;
   /* optional: adjust padding or font if desired */
 }
 
