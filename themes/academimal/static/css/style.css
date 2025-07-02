@@ -521,6 +521,7 @@ footer {
 /* Additional styles for details elements (EMRE) */ 
 details {
   margin-top: 0;
+  margin-bottom: 1em;
   /* optional: adjust padding or font if desired */
 }
 
@@ -541,7 +542,7 @@ details summary {
 
   /* change font styling */
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 12px;
 
   /* optional: remove default padding */
   padding-left: 0;
@@ -560,6 +561,6 @@ details summary {
   transform: rotate(0deg); 
 } */
 
-/* details > summary {
+details > summary {
   list-style: none;
-} */
+}
