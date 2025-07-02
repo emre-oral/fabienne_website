@@ -522,8 +522,8 @@ footer {
 details {
   margin-top: 0;
   margin-bottom: 1em;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 13px;
   /* optional: adjust padding or font if desired */
 }
 
@@ -544,7 +544,7 @@ details summary {
 
   /* change font styling */
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
 
   /* optional: remove default padding */
   padding-left: 0;
