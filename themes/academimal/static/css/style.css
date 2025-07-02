@@ -261,7 +261,7 @@ body {
 */
 body {
   /*background-color:#ffffff;*/
-  background-color:#d1fff4;
+  background-color:#f1fffc;
   margin: 0;
   font: 14px/1.5 'Lora', serif;
   color: #082132;
@@ -298,7 +298,7 @@ h1, h2, h3 {
   line-height: 1.1; }
 
 h1 {
-  color: #101618;  /*#f3f6f7;*/
+  color: #ffffff;  /*#f3f6f7;*/
   font-size: 28px; }
 
 h2 {
@@ -383,10 +383,11 @@ th {
 img {
   max-width: 100%; }
 
+  /* sidebar color */
 header {
   float: left;
   position: fixed;
-  background: #ffd1dc;
+  background: #976f78;
   top: 0px;
   left: 0px;
   bottom: 0px;
