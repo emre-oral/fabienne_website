@@ -517,7 +517,44 @@ footer {
 
 
 
+
+/* Additional styles for details elements (EMRE) */ 
 details {
   margin-top: 0;
   /* optional: adjust padding or font if desired */
 }
+
+/* 1) Remove the default disclosure triangle in WebKit/Blink browsers */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 2) Remove the default marker in Firefox */
+summary::marker {
+  display: none;
+}
+
+/* 3) Restyle the summary text to your taste */
+details summary {
+  /* change text color */
+  color: #033a5f;
+
+  /* change font styling */
+  font-weight: 600;
+  font-size: 1rem;
+
+  /* optional: remove default padding */
+  padding-left: 0;
+
+  /* give it a pointer cursor */
+  cursor: pointer;
+}
+
+/* 4) Add a custom icon if you like (optional) */
+details summary::before {
+  content: "►";            /* or any unicode character */
+  display: inline-block;
+  margin-right: 0.5em;
+  transform: rotate(0deg); /* you can rotate 90deg on open with JS or CSS if desired */
+}
+
