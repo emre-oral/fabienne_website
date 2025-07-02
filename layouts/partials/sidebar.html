@@ -34,5 +34,5 @@
 
 <!-- Site Logo -->
 {{ with .Site.Params.logo }}
-    <img src="{{ . | relURL }}" alt="Logo" style="padding-bottom: 3em;"/>
+    <img src="{{ . | absURL }}" alt="Logo" style="padding-bottom: 3em;"/>
 {{ end }}
