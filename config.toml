@@ -1,3 +1,4 @@
+baseURL = "https://emre-oral.github.io/fabienne_website/"
 relativeURLs = true
 googleAnalytics = ""
 title = "Fabienne Kraemer"
@@ -17,6 +18,6 @@ name = "Emre Oral"
 [params]
 title = "Doctoral Researcher"
 institution = "GESIS"
-logo = "static/img/emre_workphoto.jpg"
+logo = "img/emre_workphoto.jpg"
 Twitter = "emreoral_"
 Email = "fabienne.kraemer@gesis.org"
